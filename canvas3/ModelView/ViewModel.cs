@@ -13,7 +13,7 @@ namespace canvas3
 {
     public class ViewModel : INotifyPropertyChanged
     {
-        private int _idValue = 0;
+        private int _idValue = 1;
         private Box _selectedBox;
         private ObservableCollection<Box> _boxes = new ObservableCollection<Box>();
 
@@ -23,7 +23,7 @@ namespace canvas3
             set
             {
                 _idValue++;
-                OnPropertyChanged();
+                OnPropertyChanged("IdValue");
             }
         }
         public Box SelectedBox
@@ -32,7 +32,7 @@ namespace canvas3
             set
             {
                 _selectedBox = value;
-                OnPropertyChanged();
+                OnPropertyChanged("SelectedBox");
             }
         }
         public ObservableCollection<Box> Boxes
@@ -45,12 +45,6 @@ namespace canvas3
             }
         }
 
-        //public ViewModel()
-        //{
-        //    _selectedBox = new Box {Id = IdValue, Size = 55 };
-        //    Boxes.Add(_selectedBox);
-        //}
-
         private ICommand _addBox;
 
         public ICommand AddBox
@@ -59,10 +53,11 @@ namespace canvas3
             {
                 return _addBox ?? (_addBox = new RelayCommand(() =>
               {
-                  SelectedBox = new Box();
-                  SelectedBox.Id = IdValue;
-                  SelectedBox.Margin += IdValue*10;
-                  SelectedBox.Size += IdValue;
+                  //SelectedBox = new Box();
+                  //SelectedBox.Id = IdValue;
+                  //SelectedBox.Margin += IdValue*55;
+                  //SelectedBox.Size += IdValue*10;
+                  SelectedBox = new Box {Id = IdValue, Margin = IdValue*25, Size = 20 };
                   Boxes.Insert(0, SelectedBox);
                   IdValue++;
               }));

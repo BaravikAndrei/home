@@ -13,8 +13,8 @@ namespace canvas3
         //public static int idValue = 0;
 
         private int _id=0;
-        private int _size = 25;
-        private int _margin = 5;
+        private int _size = 44;
+        private int _margin = 55;
 
         public int Id
         {
