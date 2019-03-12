@@ -11,11 +11,26 @@ namespace canvas20
     public class Conector: INotifyPropertyChanged
     {
         private List<int> idOfOtherConector = new List<int>();
-        private int posX;
-        private int posY;
+        private double posX;
+        private double posY;
         private int sizeOfConector;
         private int idOfBox;
+        private Box boxOfConnector;
+        public bool IsDrag = false;
+        //public delegate void ConectorPosChangedd(Box sender, double dX);
+        //public event ConectorPosChangedd IsChangedXX;
+        //public event ConectorPosChangedd IsChangedYY;
 
+
+        public Box BoxOfConnector
+        {
+            get { return boxOfConnector; }
+            set
+            {
+                boxOfConnector = value;
+                OnPropertyChanged();
+            }
+        }
         public List<int> IdOfOtherConector
         {
             get { return idOfOtherConector; }
@@ -25,7 +40,7 @@ namespace canvas20
                 OnPropertyChanged();
             }
         }
-        public int PosX
+        public double PosX
         {
             get { return posX; }
             set
@@ -34,7 +49,7 @@ namespace canvas20
                 OnPropertyChanged();
             }
         }
-        public int PosY
+        public double PosY
         {
             get { return posY; }
             set
@@ -61,12 +76,6 @@ namespace canvas20
                 OnPropertyChanged();
             }
         }
-        public string GetIdOfBox()
-        {
-            string str = IdOfBox.ToString();
-            return str;
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName]string prop = "")
         {

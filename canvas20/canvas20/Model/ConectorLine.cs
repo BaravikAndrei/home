@@ -9,42 +9,42 @@ using System.Windows;
 
 namespace canvas20
 {
-    public class Point : INotifyPropertyChanged
-    {
-        private double x;
-        private double y;
-        public double X
-        {
-            get { return x; }
-            set
-            {
-                x = value;
-                OnPropertyChanged();
-            }
-        }
-        public double Y
-        {
-            get { return y; }
-            set
-            {
-                y = value;
-                OnPropertyChanged();
-            }
-        }
-        public event PropertyChangedEventHandler PropertyChanged;
-        public void OnPropertyChanged([CallerMemberName]string prop = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
+    //public class Point : INotifyPropertyChanged
+    //{
+    //    private double x;
+    //    private double y;
+    //    public double X
+    //    {
+    //        get { return x; }
+    //        set
+    //        {
+    //            x = value;
+    //            OnPropertyChanged();
+    //        }
+    //    }
+    //    public double Y
+    //    {
+    //        get { return y; }
+    //        set
+    //        {
+    //            y = value;
+    //            OnPropertyChanged();
+    //        }
+    //    }
+    //    public event PropertyChangedEventHandler PropertyChanged;
+    //    public void OnPropertyChanged([CallerMemberName]string prop = "")
+    //    {
+    //        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
 
-        }
-    }
+    //    }
+    //}
     public class ConectorLine : INotifyPropertyChanged
     {
         private string startedId;
         private string finishedId;
         private int lineId;
-        private Point start = new Point();
-        private Point finish = new Point();
+        private Conector start = new Conector();
+        private Conector finish = new Conector();
 
         public int LineId
         {
@@ -74,7 +74,7 @@ namespace canvas20
             }
         }
 
-        public Point Start
+        public Conector Start
         {
             get { return start; }
             set
@@ -83,7 +83,7 @@ namespace canvas20
                 OnPropertyChanged();
             }
         }
-        public Point Finish
+        public Conector Finish
         {
             get { return finish; }
             set
