@@ -11,84 +11,149 @@
         <local:MainViewModel/>
     </Window.DataContext>
     <Window.Resources>
+        
         <DataTemplate x:Key="Boxes">
             <Canvas>
-                <Canvas Canvas.Left="0" Canvas.Top="0"  
-                        Background="BurlyWood" Height="{Binding Path=Size}" Width="{Binding Path=Size}">
-                    <Rectangle Fill="Black" DataContext="{Binding Path=AllConector}" Height="{Binding Path=SizeOfConector}" Width="{Binding Path=SizeOfConector}"
-                        Canvas.Left="{Binding Path=PosX, Mode=OneWay}" Canvas.Top="0" Uid="{Binding Path=IdOfBox}" AllowDrop="True"/>
-                    <Rectangle Fill="Black" DataContext="{Binding Path=AllConector}" Height="{Binding Path=SizeOfConector}" Width="{Binding Path=SizeOfConector}"
-                        Canvas.Left="{Binding Path=PosX}" Canvas.Bottom="0" Uid="{Binding Path=IdOfBox}" AllowDrop="True"/>
-                    <Rectangle Fill="Black" DataContext="{Binding Path=AllConector}" Height="{Binding Path=SizeOfConector}" Width="{Binding Path=SizeOfConector}"
-                        Canvas.Left="0" Canvas.Top="{Binding Path=PosY}" Uid="{Binding Path=IdOfBox}" AllowDrop="True" />
-                    <Rectangle Fill="Black" DataContext="{Binding Path=AllConector}" Height="{Binding Path=SizeOfConector}" Width="{Binding Path=SizeOfConector}"
-                        Canvas.Top="{Binding Path=PosY}" Canvas.Right="0" Uid="{Binding Path=IdOfBox}" AllowDrop="True"/>
-                    <TextBlock Background="BurlyWood" Text="{Binding Path=ID}" Canvas.Left="20" Canvas.Top="18"/>
+                <Canvas MinHeight="50" MaxHeight="200" MinWidth="50" MaxWidth="200"   Canvas.Left="{Binding Path=PosOfBoxX, Mode=TwoWay}" Canvas.Top="{Binding Path=PosOfBoxY, Mode=TwoWay}" 
+                        Background="BurlyWood" Height="{Binding Path=Size}" Width="{Binding Path=Size}" Uid="{Binding Path=ID}">
+                    <TextBlock  Text="{Binding Path=Title}" Background="BlueViolet" Height="30" Width="100" TextAlignment="Center"></TextBlock>
+                    <TextBlock Background="BurlyWood" Text="{Binding Path=ID}" Canvas.Left="25" Canvas.Top="30"/>
                 </Canvas>
             </Canvas>
         </DataTemplate>
+        
+        <DataTemplate x:Key="BlockType1s">
+            <Canvas>
+                <Canvas MinHeight="50" MaxHeight="200" MinWidth="50" MaxWidth="200"   Canvas.Left="{Binding Path=PosOfBoxX, Mode=TwoWay}" Canvas.Top="{Binding Path=PosOfBoxY, Mode=TwoWay}" 
+                        Background="LawnGreen" Height="{Binding Path=Size}" Width="{Binding Path=Size}" Uid="{Binding Path=ID}">
+                    <TextBlock  Text="{Binding Path=Title}" Background="GreenYellow" Height="30" Width="100" TextAlignment="Center" IsHitTestVisible="False"></TextBlock>
+                    <TextBox Text="{Binding Path=SomeField1}" Canvas.Top="20" Canvas.Left="10"/>
+                    <TextBox Text="{Binding Path=SomeField2}" Canvas.Top="20" Canvas.Right="10"/>
+                    <TextBlock Text="{Binding Path=Multiplay}" Canvas.Top="40" Canvas.Left="20" Visibility="{Binding Path=MultiVisibility}"/>
+                </Canvas>
+            </Canvas>
+        </DataTemplate>
+        
+        <DataTemplate x:Key="Connectors">
+            <Canvas Uid="{Binding Path=IdOfBox}">
+                <Rectangle Fill="Black"  Height="{Binding Path=SizeOfConector}" Width="{Binding Path=SizeOfConector}"
+                        Canvas.Left="{Binding Path=PosX, Mode=TwoWay }" Canvas.Top="{Binding Path=PosY, Mode=TwoWay}" Uid="{Binding Path=IdOfBox}"/>
+            </Canvas>
+        </DataTemplate>
+        
     </Window.Resources>
 
     <Canvas>
 
-
-
+        <Menu Canvas.ZIndex="1" Canvas.Left="0" Canvas.Top="0" HorizontalContentAlignment="Left" HorizontalAlignment="Left">
+            <MenuItem  Header="Items"  FontStretch="Condensed">
+                <Button  Background="AliceBlue" Content="Box"  Command="{Binding AddBox}" Width="70"/>
+                <Button Background="AliceBlue" Content="SomeBlock1" Command="{Binding AddBlockType1}" Width="70"/>
+            </MenuItem>
+        </Menu>
+        
+        <Canvas  Width="1920" Height="1080"  Canvas.Left="0" Canvas.Top="0" Uid="5">
             <Canvas.Background>
-                <DrawingBrush TileMode="Tile" Viewport="0,0,10,10" 
-                                     ViewportUnits="Absolute">
+                <DrawingBrush TileMode="Tile" Viewport="0,0,100,100" 
+                                         ViewportUnits="Absolute">
                     <DrawingBrush.Drawing>
-                    <GeometryDrawing >
-                        <GeometryDrawing.Geometry>
-                            <GeometryGroup>
-                                <RectangleGeometry Rect="0,0,10,10"/>
-                            </GeometryGroup>
-                        </GeometryDrawing.Geometry>
-                            <GeometryDrawing.Pen>
-                                <Pen Brush="LightGray" Thickness="1"/>
-                            </GeometryDrawing.Pen>
-                        </GeometryDrawing>
+                        <DrawingGroup>
+                            <GeometryDrawing>
+                                <GeometryDrawing.Geometry>
+                                    <RectangleGeometry Rect="0,0,1000,1000"/>
+                                </GeometryDrawing.Geometry>
+                                <GeometryDrawing.Pen>
+                                    <Pen Brush="Black" Thickness="1"/>
+                                </GeometryDrawing.Pen>
+                            </GeometryDrawing>
+
+                            <GeometryDrawing>
+                                <GeometryDrawing.Geometry>
+                                    <GeometryGroup>
+
+                                        <RectangleGeometry Rect="0,100,1000,100"/>
+                                        <RectangleGeometry Rect="0,200,1000,100"/>
+                                        <RectangleGeometry Rect="0,300,1000,100"/>
+                                        <RectangleGeometry Rect="0,400,1000,100"/>
+                                        <RectangleGeometry Rect="0,500,1000,100"/>
+                                        <RectangleGeometry Rect="0,600,1000,100"/>
+                                        <RectangleGeometry Rect="0,700,1000,100"/>
+                                        <RectangleGeometry Rect="0,800,1000,100"/>
+
+                                        <RectangleGeometry Rect="100,0,100,1000"/>
+                                        <RectangleGeometry Rect="200,0,100,1000"/>
+                                        <RectangleGeometry Rect="300,0,100,1000"/>
+                                        <RectangleGeometry Rect="400,0,100,1000"/>
+                                        <RectangleGeometry Rect="500,0,100,1000"/>
+                                        <RectangleGeometry Rect="600,0,100,1000"/>
+                                        <RectangleGeometry Rect="700,0,100,1000"/>
+                                        <RectangleGeometry Rect="800,0,100,1000"/>
+
+                                    </GeometryGroup>
+                                </GeometryDrawing.Geometry>
+                                <GeometryDrawing.Pen>
+                                    <Pen Brush="DarkGray" Thickness="2"/>
+                                </GeometryDrawing.Pen>
+                            </GeometryDrawing>
+                            
+                        </DrawingGroup>
                     </DrawingBrush.Drawing>
                 </DrawingBrush>
-        </Canvas.Background>
+            </Canvas.Background>
 
-
-
-
-        <i:Interaction.Behaviors>
-            <local:MainViewModel  MouseX="{Binding PanelX}"
+            <i:Interaction.Behaviors>
+                <local:MainViewModel  MouseX="{Binding PanelX}"
                                   MouseY="{Binding PanelY}" />
-        </i:Interaction.Behaviors>
+            </i:Interaction.Behaviors>
 
-        <Button Background="AliceBlue" Content="+" Height="20" Width="20" Canvas.Right="10" Canvas.Top="10" Command="{Binding AddBox}"/>
-        <ItemsControl  ItemsSource="{Binding Path=Boxes}" ItemTemplate="{StaticResource Boxes}" Canvas.Left="0" Canvas.Top="0"/>
+            <ItemsControl ItemsSource="{Binding Path=Boxes}" ItemTemplate="{StaticResource Boxes}"/>
+            <ItemsControl ItemsSource="{Binding Path=BlockType1s}" ItemTemplate="{StaticResource BlockType1s}"/>
+            <ItemsControl ItemsSource="{Binding Path=Connectors}" ItemTemplate="{StaticResource Connectors}"/>
 
-        <ItemsControl ItemsSource="{Binding Lines}">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <Canvas/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Line X1="{Binding Path=Start.X }" Y1="{Binding Path=Start.Y}" X2="{Binding Path=Finish.X}" Y2="{Binding Path=Finish.Y}"
-                      Stroke="DarkGray" StrokeThickness="2" Uid="{Binding Path=LineId}"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+            <Popup x:Name="pop" IsOpen="{Binding Path=Open}" Placement="Mouse" Height="Auto" Width="Auto">
+                <Canvas Background="WhiteSmoke" Height="450" Width="250">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding SelectedBlockType1.Title}"/>
+                        <TextBlock Text=" #"/>
+                        <TextBlock Text="{Binding SelectedBlockType1.ID}"/>
+                    </StackPanel>
+                    <StackPanel Canvas.Left="20" Canvas.Top="20">
+                        <CheckBox Content="Multiplay" IsThreeState="False" IsChecked="{Binding SelectedBlockType1.IsMultiplay}"/>
+                    </StackPanel>
+                    <Button Content="Cancel" Height="25" Width="50" Canvas.Right="5" Canvas.Bottom="5" Command="{Binding Path=CancelPopup}"/>
+                    <Button Content="OK" Height="25" Width="50" Canvas.Right="60" Canvas.Bottom="5" Command="{Binding Path=OkPopup}"/>
+                </Canvas>
+            </Popup>
+            
+            <ItemsControl ItemsSource="{Binding Lines}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Line X1="{Binding Path=Start.PosX }" Y1="{Binding Path=Start.PosY}" X2="{Binding Path=Finish.PosX}" Y2="{Binding Path=Finish.PosY}"
+                              Stroke="DarkGray" StrokeThickness="4" Uid="{Binding Path=LineId}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
 
+            <ItemsControl ItemsSource="{Binding PreviewConnectorLineDisp}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Line X1="{Binding Path=Start.PosX }" Y1="{Binding Path=Start.PosY}" X2="{Binding Path=Finish.PosX}" Y2="{Binding Path=Finish.PosY}"
+                      Stroke="DarkGray" StrokeThickness="4"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
 
-        <ItemsControl ItemsSource="{Binding PreviewConnectorLineDisp}">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <Canvas/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Line X1="{Binding Path=Start.X }" Y1="{Binding Path=Start.Y}" X2="{Binding Path=Finish.X}" Y2="{Binding Path=Finish.Y}"
-                      Stroke="DarkGray" StrokeThickness="2"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        </Canvas>
+       
     </Canvas>
 </Window>
