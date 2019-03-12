@@ -1,0 +1,164 @@
+E:\Prog\last2\canvas20\canvas20\obj\Debug\View\MainWindow.g.cs
+E:\Prog\last2\canvas20\canvas20\obj\Debug\App.g.cs
+E:\Prog\last2\canvas20\canvas20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.cache
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.lref
+E:\Prog\last2\canvas20\canvas20\bin\Debug\canvas20.exe.config
+E:\Prog\last2\canvas20\canvas20\bin\Debug\canvas20.exe
+E:\Prog\last2\canvas20\canvas20\bin\Debug\canvas20.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\CommonServiceLocator.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.Wpf.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\System.Windows.Interactivity.dll
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.xml
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.Wpf.pdb
+E:\Prog\last2\canvas20\canvas20\bin\Debug\Prism.Wpf.xml
+E:\Prog\last2\canvas20\canvas20\obj\Debug\View\MainWindow.baml
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20.g.resources
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20.Properties.Resources.resources
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20.csproj.GenerateResource.Cache
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20.exe
+E:\Prog\last2\canvas20\canvas20\obj\Debug\canvas20.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\canvas20.exe.config
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.exe
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\canvas20.exe
+E:\Prog\last3\canvas20\canvas20\bin\Debug\canvas20.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\CommonServiceLocator.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.Wpf.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\System.Windows.Interactivity.dll
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.xml
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.Wpf.pdb
+E:\Prog\last3\canvas20\canvas20\bin\Debug\Prism.Wpf.xml
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.csprojResolveAssemblyReference.cache
+E:\Prog\last3\canvas20\canvas20\obj\Debug\View\MainWindow.g.cs
+E:\Prog\last3\canvas20\canvas20\obj\Debug\App.g.cs
+E:\Prog\last3\canvas20\canvas20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.cache
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.lref
+E:\Prog\last3\canvas20\canvas20\obj\Debug\View\MainWindow.baml
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.g.resources
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.Properties.Resources.resources
+E:\Prog\last3\canvas20\canvas20\obj\Debug\canvas20.csproj.GenerateResource.Cache
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\canvas20.exe.config
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\canvas20.exe
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\canvas20.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\CommonServiceLocator.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.Wpf.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.xml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.Wpf.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\bin\Debug\Prism.Wpf.xml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\View\MainWindow.g.cs
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\App.g.cs
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.cache
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.lref
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\View\MainWindow.baml
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.g.resources
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.Properties.Resources.resources
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.csproj.GenerateResource.cache
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.csproj.CoreCompileInputs.cache
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.csproj.CopyComplete
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.exe
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.pdb
+C:\Users\Andrei Baravik\source\Reworked3\canvas20\canvas20\obj\Debug\canvas20.csprojAssemblyReference.cache
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\canvas20.exe.config
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\canvas20.exe
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\canvas20.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\CommonServiceLocator.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.Wpf.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.xml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.Wpf.pdb
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\bin\Debug\Prism.Wpf.xml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.csprojAssemblyReference.cache
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\View\MainWindow.g.cs
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\App.g.cs
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.cache
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.lref
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\View\MainWindow.baml
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.g.resources
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.Properties.Resources.resources
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.csproj.GenerateResource.cache
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.csproj.CoreCompileInputs.cache
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.csproj.CopyComplete
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.exe
+C:\Users\Dmitry Sidorov\source\repos\flow\canvas20\canvas20\obj\Debug\canvas20.pdb
+D:\prog\canvas20\canvas20\bin\Debug\canvas20.exe.config
+D:\prog\canvas20\canvas20\bin\Debug\canvas20.exe
+D:\prog\canvas20\canvas20\bin\Debug\canvas20.pdb
+D:\prog\canvas20\canvas20\bin\Debug\CommonServiceLocator.dll
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.dll
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\prog\canvas20\canvas20\bin\Debug\Prism.dll
+D:\prog\canvas20\canvas20\bin\Debug\Prism.Wpf.dll
+D:\prog\canvas20\canvas20\bin\Debug\System.Windows.Interactivity.dll
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.xml
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\prog\canvas20\canvas20\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\prog\canvas20\canvas20\bin\Debug\Prism.pdb
+D:\prog\canvas20\canvas20\bin\Debug\Prism.xml
+D:\prog\canvas20\canvas20\bin\Debug\Prism.Wpf.pdb
+D:\prog\canvas20\canvas20\bin\Debug\Prism.Wpf.xml
+D:\prog\canvas20\canvas20\obj\Debug\View\MainWindow.g.cs
+D:\prog\canvas20\canvas20\obj\Debug\App.g.cs
+D:\prog\canvas20\canvas20\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\prog\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.cache
+D:\prog\canvas20\canvas20\obj\Debug\canvas20_MarkupCompile.lref
+D:\prog\canvas20\canvas20\obj\Debug\View\MainWindow.baml
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.g.resources
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.Properties.Resources.resources
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.csproj.GenerateResource.cache
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.csproj.CoreCompileInputs.cache
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.csproj.CopyComplete
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.exe
+D:\prog\canvas20\canvas20\obj\Debug\canvas20.pdb
